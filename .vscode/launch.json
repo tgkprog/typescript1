@@ -1,0 +1,55 @@
+{
+  "version": "0.1.0",
+  // List of configurations. Add new configurations or edit existing ones.
+  // ONLY "node" and "mono" are supported, change "type" to switch.
+  //"address": "localhost",
+  "configurations": [
+    /*   {
+      "name": "Attach",
+      "port": 9229,
+      "request": "attach",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    }, */
+
+    /*     {
+      "name": "Attach by Process ID",
+      "processId": "${command:PickProcess}",
+      "request": "attach",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    }, */
+    {
+      "name": "Launch exs",
+
+      "type": "node",
+
+      "request": "launch",
+
+      "runtimeArgs": ["-r", "ts-node/register", "--inspect"],
+      "args": ["${relativeFile}"]
+    },
+    {
+      "name": "Attach",
+      "port": 9229,
+      "request": "attach",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    }
+    //      "runtimeArgs": ["-r", "ts-node/register", "--inspect-brk"],
+    //      "runtimeArgs": ["-r", "ts-node/register", "--inspect-brk"],
+    // node -r ts-node/register --inspect-brk myscript.ts
+
+    //tuple, fn
+    // ,
+    // {
+    //   "name": "Attach",
+    //   "type": "node",
+
+    //   // TCP/IP address. Default is "localhost".
+    //   "address": "localhost",
+    //   // Port to attach to.
+    //   "port": 5858
+    // }
+  ]
+}

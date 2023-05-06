@@ -1,0 +1,12 @@
+{
+    "requestId" : "GER3LPDF433GHJ11",
+    "clientId" : "SD834LKSDC2",
+    "error": 
+      {
+        "status": "422",
+        "source": { "pointer": "/data/attributes/firstName" },
+        "title":  "Invalid Value",
+        "detail": "First name must contain at least two characters."
+      }
+    
+  }

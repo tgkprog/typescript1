@@ -1,0 +1,20 @@
+{
+    "greetings": {
+      "hello": "Hello",
+          "hello_informal": "Hi",
+          "good_morning": "Good morning",
+          "good_afternoon": "Good afternoon",
+          "good_night": "Good night",
+          "bye": "Bye"
+    },
+    "commons": {
+      "pagination": {
+              "first_page": "First page",
+              "last_page": "Last page",
+              "next_page": "Next page",
+              "previous_page": "Previous page"
+          }
+    },
+    "home": "Home sweet home"
+  }
+  

@@ -1,6 +1,17 @@
 {
   "devDependencies": {
     "@types/node": "^18.16.3",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "vite-tsconfig-paths": "^4.0.7",
+    "vitest": "^0.31.0"
+  },
+  "dependencies": {
+    
+
+  },
+
+  "scripts": {
+
+    "r" : "npx vitest run src/exercises/"
   }
 }

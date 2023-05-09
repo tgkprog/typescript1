@@ -21,7 +21,7 @@ it("Add to nos", () => {
 
   expect(addTwoNumbers({ first: 4, second: -5 })).toEqual(-1);
 
-  expect(addTwoNumbers({ first: 8, second: -5 })).toEqual(5); //wrong to check
+  expect(addTwoNumbers({ first: 8, second: -5 })).toEqual(3); //wrong to check
 });
 //let ja2: object extends Greet;
 //ja2 = { j: {}, hi: "za", bye: 4 };

@@ -1,5 +1,6 @@
 let dish1: string | null = null;
 const beans = "beans";
+Object.defineProperty(exports, "__esModule", { value: true });
 
 let lunch = dish1 ?? beans;
 
